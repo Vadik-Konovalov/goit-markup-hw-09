@@ -84,7 +84,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin: calc(-1 * var(--indent) / 2);
-
+  
 }
 
 .card-set__item {
@@ -120,7 +120,6 @@ a {
 .heading-title {
     margin-bottom: 50px;
 }
-
 /* global hover & focus  */
 .active:hover,
 .active:focus {
@@ -128,12 +127,12 @@ a {
 }
 
 /* logo */
-.logo {
+.logo {    
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;   
     color: var(--accent-color);
     transition: var(--timing-text-color);
 }
@@ -142,13 +141,11 @@ a {
 .logo:focus {
     color: var(--accent-color);
 }
-
 .header-logo {
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
 .footer-logo {
     margin-bottom: 20px;
 }
@@ -184,7 +181,6 @@ a {
     border-radius: 50%;
     transition: var(--timing-text-color), var(--timing-backgraund-color);
 }
-
 .social-media__link--dark {
     color: var(--main-page-color);
     background: rgba(255, 255, 255, 0.1);
@@ -198,12 +194,10 @@ a {
 .social-media__link:focus {
     color: var(--main-page-color);
     background-color: var(--accent-color);
-}
-
+}  
 .social-media__icon {
     fill: currentColor;
 }
-
 /* button */
 .btn {
     width: 200px;
@@ -218,9 +212,8 @@ a {
     border-radius: 4px;
     border: transparent;
 }
-
 .btn--order {
-    display: inline-block;
+    display: inline-block;   
     transition: var(--timing-backgraund-color), var(--timing-text-color)
 }
 
@@ -231,7 +224,6 @@ a {
     background-color: var(--hero_btn-backgraund-color);
     border: transparent;
 }
-
 .btn--sabmit {
     display: flex;
     padding-top: 10px;
@@ -239,17 +231,14 @@ a {
     padding-bottom: 10px;
     padding-left: 29px
 }
-
 .btn__icon {
     margin-left: 12px;
 }
-
 .btn--modal {
     margin-left: 165px;
     outline: var(--accent-color);
     transition: var(--timing-backgraund-color);
 }
-
 /* header */
 
 .header {
@@ -262,7 +251,7 @@ a {
     align-items: center;
 }
 
-.nav--left {
+.nav--left {    
     margin-left: auto;
 }
 
@@ -345,7 +334,7 @@ a {
     margin-right: auto;
     background-color: var(--section-background-colour);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hero.jpeg);
+    url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -549,7 +538,7 @@ a {
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    transition: var(--timing-text-color);
+    transition: var(--timing-text-color);    
 }
 
 .contacts__adds {
@@ -569,9 +558,8 @@ a {
 .holder {
     display: inline-flex;
     flex-direction: column;
-
+    
 }
-
 .holder-draft {
     margin-left: 70px;
 }
@@ -588,11 +576,10 @@ a {
     color: var(--main-page-color);
 }
 
-.holder-draft2 {
+.holder-draft2 {   
     margin-left: 93px;
-
+    
 }
-
 .footer__form {
     display: flex;
 }
@@ -602,7 +589,7 @@ a {
     height: 50px;
     margin-right: 12px;
     padding-left: 16px;
-    padding-top: 15px;
+    padding-top: 15px ;
     padding-bottom: 15px;
 
     color: rgba(255, 255, 255, 0.6);
@@ -616,11 +603,10 @@ a {
     border-radius: 4px;
     background-color: var(--section-background-colour);
 }
-
 .btn--sabmit {
     display: flex;
     width: 200px;
-    height: 50px;
+    height: 50px;  
     padding-top: 10px;
     padding-right: 28px;
     padding-bottom: 10px;
@@ -636,9 +622,8 @@ a {
     border: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
+    
 }
-
 .btn__icon {
     margin-left: 12px;
 }
@@ -834,18 +819,17 @@ a {
     border-radius: 50%;
     cursor: pointer;
 }
-
 .modal__hero-form {
     width: 528px;
     height: 581px;
 }
 
-.modal__close-btn:hover>.modal__close-icon,
+.modal__close-btn:hover > .modal__close-icon,
 .modal__close-btn:focus>.modal__close-icon {
     fill: var(--accent-color);
     transition: var(--timing-transform);
 }
-
+   
 
 .modal__title {
     display: block;
@@ -861,13 +845,12 @@ a {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-
 .modal__inputs {
     display: flex;
-    flex-direction: column;
-    position: relative;
-
-    padding: 0;
+    flex-direction: column; 
+    position: relative;   
+    
+    padding: 0;   
     margin-left: 40px;
     margin-right: 40px;
     font-weight: 400;
@@ -876,10 +859,9 @@ a {
     letter-spacing: 0.01em;
     color: var(--title-text-color);
 }
-
 .modal__inputs:not(:last-child) {
     margin-bottom: 10px;
-}
+  }
 
 
 .modal__inputs label {
@@ -896,7 +878,6 @@ a {
     border-radius: 4px;
 
 }
-
 .modal__icon {
     position: absolute;
     margin: 11px 12px;
@@ -913,32 +894,29 @@ a {
     padding-left: 42px;
     width: 448px;
     height: 40px;
-
+    
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: transparent;
 
     transition: var(--timing-transform);
-
+    
 }
 
 .modal__for-input:focus,
 .modal__hiro-textarea:focus {
     border-color: var(--accent-color);
 }
-
-.modal__for-input:focus~.modal__icon {
+.modal__for-input:focus ~ .modal__icon {
     fill: var(--accent-color);
 
 }
-
 .modal__hiro-textarea {
     outline: transparent;
-    resize: none;
-
+    resize: none;    
+    
 }
-
-.modal__inputs>.modal__hiro-textarea {
+.modal__inputs > .modal__hiro-textarea {
     padding: 12px 16px;
     font-family: inherit;
     font-style: normal;
@@ -953,7 +931,6 @@ a {
     color: var(--accent-color);
     text-decoration: underline;
 }
-
 .modal-checkbox {
     display: flex;
     align-items: center;
@@ -968,8 +945,8 @@ a {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: var(--title-text-color);
-    cursor: pointer;
+    color: var(--title-text-color); 
+    cursor: pointer ;   
 }
 
 .modal-checkbox__custom {
@@ -979,35 +956,32 @@ a {
 
     width: 16px;
     height: 15px;
-    margin-right: 6px;
+    margin-right: 6px;    
     outline: 2px solid var(--primary-text-color);
     outline-offset: -2px;
     border-radius: 2px;
 
-    transition: var(--timing-backgraund-color);
+    transition: var(--timing-backgraund-color) ;  
 
 }
 
 .modal-checkbox__icon {
     fill: var(--main-page-color);
-
+    
 }
-
-.modal-checkbox__input:checked+.modal-checkbox__custom {
+.modal-checkbox__input:checked + .modal-checkbox__custom {
     background-color: var(--accent-color);
     outline: var(--accent-color);
-
-
+    
+   
 }
-
-.modal-checkbox__input:focus+.modal-checkbox__custom {
+.modal-checkbox__input:focus +.modal-checkbox__custom {
     outline: 2px solid var(--accent-color);
     outline-offset: -2px;
     border-radius: 2px;
 
 }
-
 .modal-checkbox__agreement {
     user-select: none;
-
+    
 }

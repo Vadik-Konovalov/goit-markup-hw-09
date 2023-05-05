@@ -9,5 +9,14 @@
     margin-right: $mr;
     padding-left: $pl;
     padding-right: $pr;
-
+    
 }
+
+@mixin holder($d: flex, $fd: column, $ai: flex-start) {
+    display: $d;
+    flex-direction: $fd;
+    align-items: $ai;
+    
+}
+    
+    

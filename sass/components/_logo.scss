@@ -4,7 +4,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;    
     color: var(--accent-color);
     transition: var(--timing-text-color);
 
@@ -24,9 +24,9 @@
 
 .header-logo {
     @include respond-to('medium') {
-        margin-right: 93px;
+          margin-right: 93px;          
+        }
     }
-}
 
 .footer-logo {
     margin-bottom: 20px;

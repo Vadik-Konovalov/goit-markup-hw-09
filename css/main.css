@@ -1515,7 +1515,7 @@
       --items: 2;
     }
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 120px) {
     .benefits {
       --items: 4;
     }
